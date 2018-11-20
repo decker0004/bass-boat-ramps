@@ -1,5 +1,6 @@
-var express = require("express");
-var app = express();
+const express = require("express"),
+      app = express(),
+      mongoose = require("mongoose");
 
 
 app.set("view engine", "ejs");
