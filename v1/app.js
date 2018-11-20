@@ -14,8 +14,6 @@ app.get("/bassboatramps", function(req, res){
     res.render("bassboatramps");
 });
 
-
-
 ////server call
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("Get your Bass Cat rolling!") 
