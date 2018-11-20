@@ -11,8 +11,9 @@ app.get("/", function(req, res){
 });
 
 ///ramps route
-app.get("/bassboatramps", function(req, res){
-    res.render("bassboatramps");
+app.get("/states/va/philpott", function(req, res){
+    res.render("states/va/philpott/twinridge");
+    console.log("test");
 });
 
 ////server call
