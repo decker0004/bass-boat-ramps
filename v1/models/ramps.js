@@ -2,6 +2,8 @@ var mongoose = require("mongoose");
 
 var rampsSchema = new mongoose.Schema({
    name: { type: String},
+   state: { type: String},
+   lake: { type: String},
    image: { type: String},
    numRamps: { type: Number},
    rampFee: { type: Number},

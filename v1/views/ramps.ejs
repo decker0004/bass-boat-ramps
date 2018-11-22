@@ -1,0 +1,8 @@
+<% include partials/header %>
+<h1>Route test</h1>
+<% ramps.forEach(function(ramps){ %>
+
+<h2><%= ramps.name %></h2>
+<li><img src="<%=ramps.image%>"> </li>
+<% }); %>
+<% include partials/footer %>
